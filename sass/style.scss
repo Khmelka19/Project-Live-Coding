@@ -1,2 +1,11 @@
+@import "abstracts/constants";
 @import "base/base";
-@import "abstracts/constants"
+
+// Layout
+@import "layout/wrapper.scss";
+@import "layout/header";
+
+// Components
+@import "components/contact-us";
+@import "components/buttons";
+@import "components/promo";
