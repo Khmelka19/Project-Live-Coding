@@ -1,13 +1,16 @@
+//Abstract
 @import "abstracts/constants";
 @import "abstracts/mixins";
 @import "abstracts/placeholders";
+
+//Base
 @import "base/base";
 
-// Layout
+//Layout
 @import "layout/wrapper.scss";
 @import "layout/header";
 
-// Components
+//Components
 @import "components/contact-us";
 @import "components/buttons";
 @import "components/promo";
