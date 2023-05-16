@@ -1,5 +1,5 @@
 .button {
-    font-family: 'Open Sans', Verdana, sans-serif;
+    @extend %font-prim;
     padding: 11px 25px 13px;
     font-style: normal;
     font-weight: 600;
@@ -28,6 +28,9 @@
     }
 }
 
+.link-button {
+
+}
 /*.button_bordered {
     background: $color-light;
     border: 1px solid $color-border;
