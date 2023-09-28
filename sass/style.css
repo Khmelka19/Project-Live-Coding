@@ -142,6 +142,8 @@ h5 {
 
 .ico_play {
   background-image: url("../../img/icons/play.svg");
+  width: 18px;
+  height: 19px;
 }
 
 .logo-svg {
@@ -166,21 +168,6 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.navigation {
-  display: flex;
-  font-size: 1.5rem;
-  line-height: 2.8rem;
-}
-
-.navigation__link {
-  list-style: none;
-  padding: 0 10px;
-  cursor: pointer;
-}
-.navigation__link:hover {
-  color: #ff9900;
 }
 
 .header__buttons > .button {
@@ -224,6 +211,21 @@ h5 {
   font-style: normal;
   font-weight: normal;
   line-height: 2.8rem;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #ff9900;
 }
 
 /*# sourceMappingURL=style.css.map */
