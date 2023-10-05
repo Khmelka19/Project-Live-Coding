@@ -32,6 +32,10 @@
     color: $color-primary;
     @extend %font-add;
 }
+
+.link-button__text {
+    margin-left: 9px;
+}
 /*.button_bordered {
     background: $color-light;
     border: 1px solid $color-border;

@@ -8,12 +8,16 @@
 @import "base/buttons";
 @import "base/icons";
 @import "base/logo";
+@import "base/tags";
 
 //Layout
-@import "layout/wrapper.scss";
+@import "layout/wrapper";
 @import "layout/header";
+@import "layout/columns";
 
 //Components
 @import "components/contact-us";
 @import "components/promo";
 @import "components/navigation";
+@import "components/tools";
+@import "components/strategies";
